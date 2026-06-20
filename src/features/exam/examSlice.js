@@ -1,0 +1,1 @@
+import {createSlice} from '@reduxjs/toolkit';const s=createSlice({name:'exam',initialState:{score:0},reducers:{setScore:(st,a)=>{st.score=a.payload}}});export const {setScore}=s.actions;export default s.reducer;

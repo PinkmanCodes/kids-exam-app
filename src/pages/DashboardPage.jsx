@@ -1,0 +1,2 @@
+import React from 'react';
+import {Button,Stack,Typography} from '@mui/material';import {useNavigate} from 'react-router-dom';export default function(){const n=useNavigate();return <Stack spacing={2}><Typography variant='h4'>Dashboard</Typography><Button variant='contained' onClick={()=>n('/exam/maths')}>Maths</Button><Button variant='contained' onClick={()=>n('/exam/logical')}>Logical Thinking</Button></Stack>}
